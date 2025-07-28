@@ -9,3 +9,4 @@ langchain-openai>=0.1.6
 faiss-cpu
 transformers
 torch
+googletrans==4.0.0rc1
