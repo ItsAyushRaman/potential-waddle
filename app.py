@@ -41,7 +41,7 @@ if "summary" not in st.session_state:
 # --- Sidebar ---
 with st.sidebar:
     st.title("⚙️ Settings")
-    openai_api_key = st.text_input("OpenAI API Key", type="password")
+    openai_api_key = st.text_input("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", type="password")
    
 
     st.session_state.dark_mode = st.toggle("Dark Mode", value=False)
